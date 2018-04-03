@@ -1,0 +1,95 @@
+page-login {
+ 
+    .login-content {
+      // background: #df1f1b;
+      background-image: url("../assets/imgs/bg.jpg");
+      position: relative;
+      background-size: cover;
+      background-position: center;
+
+      .wrapper-dark {
+        width: 0;
+        height: 0;
+        border-bottom: 270px solid #bd1a16;
+        border-right: 100vw solid transparent;
+        position: absolute;
+        bottom: 150px;
+      }
+
+      .lower-dark {
+        width: 100%;
+        height: 151px;
+        background: #bd1a16;
+        position: absolute;
+        bottom: 0;
+      }
+
+      .wrapper-light {
+        width: 0;
+        height: 0;
+        border-bottom: 270px solid #df1f1b;
+        border-right: 100vw solid transparent;
+        position: absolute;
+        bottom: 120px;
+      }
+
+      .lower-light {
+        width: 100%;
+        height: 121px;
+        background: #df1f1b;
+        position: absolute;
+        bottom: 0;
+      }
+   
+      .logo-row {
+        padding-top: 50px;
+        padding-bottom: 20px;
+      }
+   
+      .login-box {
+        background: #e2e2e26b;
+        padding: 20px 20px 0px 20px;
+        margin-top: 30px;
+        z-index: 5;
+        position: relative;
+        box-shadow: 0 0 30px -7px #000000;
+      }
+   
+      ion-row {
+         align-items: center;
+         text-align: center;
+       }
+   
+       ion-item {
+           border-radius: 30px !important;
+           padding-left: 30px !important;
+           font-size: 0.9em;
+           margin-bottom: 10px;
+           border: 1px solid #ffffff;
+           border-bottom: 0px !important;
+           box-shadow: none !important;
+       }
+   
+       .signup-col {
+         margin: 0px 16px 0px 16px;
+         padding-bottom: 20px;
+       }
+   
+       .item-inner {
+         border-bottom-color: #ffffff !important;
+         box-shadow: none !important;
+       }
+   
+       .submit-btn {
+         background: #df1f1b;
+         border-radius: 30px !important;
+         border: 1px solid #ffffff;
+       }
+   
+       .register-btn {
+         color: #ffffff;
+         font-size: 0.8em;
+       }
+    }
+   
+  }
